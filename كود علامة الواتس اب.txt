@@ -52,7 +52,7 @@
 </style>
 
 <div class="whatsapp-container">
-    <a href="https://wa.me/966594361056?text=السلام%20عليكم%20حابب%20استفسر"
+    <a href="https://wa.me/966xxxxx?text=السلام%20عليكم%20حابب%20استفسر"
        target="_blank"
        class="whatsapp-button">
        
