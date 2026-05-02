@@ -1,0 +1,65 @@
+<style>
+.whatsapp-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+}
+
+/* الزرار مع النص */
+.whatsapp-button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #25D366;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    animation: pulse 1.5s infinite;
+}
+
+/* الأيقونة */
+.whatsapp-button img {
+    width: 26px;
+}
+
+/* النص */
+.whatsapp-text {
+    white-space: nowrap;
+}
+
+/* انيميشن */
+@keyframes pulse {
+    0% { box-shadow: 0 0 0 0 rgba(37,211,102, 0.7); }
+    70% { box-shadow: 0 0 0 15px rgba(37,211,102, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(37,211,102, 0); }
+}
+
+/* 📱 موبايل */
+@media (max-width: 768px) {
+    .whatsapp-button {
+        padding: 12px 18px;
+        font-size: 15px;
+    }
+
+    .whatsapp-button img {
+        width: 30px;
+    }
+}
+</style>
+
+<div class="whatsapp-container">
+    <a href="https://wa.me/966594361056?text=السلام%20عليكم%20حابب%20استفسر"
+       target="_blank"
+       class="whatsapp-button">
+       
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg">
+        
+        <span class="whatsapp-text">
+            تواصل معنا
+        </span>
+    </a>
+</div>
